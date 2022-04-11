@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif
+}
+
+body{
+    background: #F5FBFC;
+}
+.header{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.header h1{
+    color: #35B8BE;
+    padding-bottom: 20px;
+}
+.header p{
+    color: #546285;
+    padding-bottom: 35px;
+}
+.link-p{
+    color: #35B8BE;
+}
+.header-list ul{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background: transparent;
+    padding: 8px 33px;
+    cursor: pointer;
+    border: 1px solid #35B8BE;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+.btn a{
+    color: #35B8BE;
+}
+.btn:hover{
+    background: #35B8BE;
+}
+.btn:hover a{
+    color: white;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+}
+.menu-btns input{
+    margin: 10px;
+    margin-left: 0;
+    height: 33px;
+    width: 50px;
+    border: 1px solid #35B8BE;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.2s;
+}
+.menu-btns a{
+    background: #35B8BE;
+    color: black;
+    padding: 5px 20px;
+    cursor: pointer;
+    border: 1px solid #35B8BE;
+    border-radius: 3px;
+    transition: all 0.2s;
+}
+.menu-btns:hover a{
+    color: #546285;
+    background: #fff;
+}
+.menu-one{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+.menu-tow{
+    display: flex;
+    justify-content: space-between;
+}
+.burger{
+    display: flex;
+}
+.burger{
+    width: 550px;
+    background: #fff;
+    padding: 30px 18px 30px 18px;
+}
+.menu-text{
+    padding-left: 20px;
+}
+.menu-text h4{
+    padding-bottom: 20px;
+}
+.menu-text p{
+    color: #546285;
+    font-size: 14px;
+}
+.menu-title{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-title p{
+    color: #35B8BE;
+    font-size: 15px;
+}

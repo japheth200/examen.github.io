@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Задание 2</title>
+</head>
+<body>
+    <header>
+        <ul class="header">
+            <li>Синон Жафет Олу-воле</li>
+            <li>Гр 211-329</li>
+            <li>11/04/2022</li>
+        </ul>
+    </header>
+    
+
+    <form action="//httpbin.org/post" method="POST">
+        <div class="container">
+            <div class="title">registration</div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">название фильма,</span>
+                        <input type="text" placeholder="Имя" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">дата</span>
+                        <input type="text" placeholder="дд/мм/гггг" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">время</span>
+                        <input type="text" placeholder="ч/мн/с" required>
+                    </div>
+                    <div class="payement">
+                        <p>оплата: наличными или картой</p>
+                        <select name="оплата">
+                            <option value="наличными">наличными</option>
+                            <option value="картой">картой</option>
+                        </select>
+                    </div>
+                    <div class="btn">
+                        <button type="reset">Отправить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
